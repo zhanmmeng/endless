@@ -15,8 +15,8 @@ theme = 'hugo-book'
   BookShowBreadCrumbs = true
   # 显示代码复制按钮
   BookShowCodeCopyButtons = true
-  # 折叠目录
-  BookSection = '*' # 文档的前一章目录
+  # 内容目录
+  BookSection = 'posts' # 指定内容源目录
 
 [menu]
 # [[menu.before]]
