@@ -1,3 +1,26 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'zh-cn'
+title = '我的博客'
+
+theme = 'hugo-book'
+
+[params]
+  # 默认主题: light 或 dark 或 auto
+  BookTheme = 'auto'
+  # 显示阅读时间
+  BookShowReadingTime = true
+  # 显示文章目录
+  BookShowToC = true
+  # 显示面包屑导航
+  BookShowBreadCrumbs = true
+  # 显示代码复制按钮
+  BookShowCodeCopyButtons = true
+  # 折叠目录
+  BookSection = '*' # 文档的前一章目录
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/username"
+  weight = 10
