@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://zhanmmeng.github.io/endless/'
 languageCode = 'zh-cn'
 title = '我的博客'
 
@@ -22,5 +22,5 @@ theme = 'hugo-book'
 # [[menu.before]]
 [[menu.after]]
   name = "Github"
-  url = "https://github.com/username"
+  url = "https://github.com/zhanmmeng"
   weight = 10
