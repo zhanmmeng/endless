@@ -4,6 +4,9 @@ title = '我的博客'
 
 theme = 'hugo-book'
 
+# 启用 Git 信息跟踪（显示最后修改时间）
+enableGitInfo = true
+
 [params]
   # 默认主题: light 或 dark 或 auto
   BookTheme = 'auto'
@@ -15,8 +18,12 @@ theme = 'hugo-book'
   BookShowBreadCrumbs = true
   # 显示代码复制按钮
   BookShowCodeCopyButtons = true
-  # 内容目录
-  BookSection = 'posts' # 指定内容源目录
+  # 内容目录（'*' 表示显示所有内容，或者指定具体目录如 'posts'）
+  BookSection = '*'
+  # 启用搜索
+  BookSearch = true
+  # 日期格式（用于显示最后修改时间）
+  BookDateFormat = '2006年1月2日'
 
 [menu]
 # [[menu.before]]
@@ -24,3 +31,7 @@ theme = 'hugo-book'
   name = "Github"
   url = "https://github.com/zhanmmeng"
   weight = 10
+
+[markup.goldmark.renderer]
+  # 允许 HTML 标签
+  unsafe = true
