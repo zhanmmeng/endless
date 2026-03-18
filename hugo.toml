@@ -10,6 +10,8 @@ enableGitInfo = true
 [params]
   # 默认主题: light 或 dark 或 auto
   BookTheme = 'auto'
+  # 显示最后修改时间
+  BookLastModify = true
   # 显示阅读时间
   BookShowReadingTime = true
   # 显示文章目录
@@ -24,6 +26,10 @@ enableGitInfo = true
   BookSearch = true
   # 日期格式（用于显示最后修改时间）
   BookDateFormat = '2006年1月2日'
+  # Git 仓库地址（用于生成提交链接）
+  BookRepo = 'https://github.com/zhanmmeng/endless'
+  # 启用最后修改时间显示（需要 enableGitInfo = true）
+  BookLastChangeLink = '{{ .Site.Params.BookRepo }}/commit/{{ .GitInfo.Hash }}'
 
 [menu]
 # [[menu.before]]

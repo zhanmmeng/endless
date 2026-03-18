@@ -1,11 +1,10 @@
 ---
 title: "标题"
 date: 2026-03-10T21:46:21+08:00
-# bookComments: false
-# bookSearchExclude: false
-# bookPostThumbnail: thumbnail.*
+lastmod: 2026-03-17T23:54:00+08:00
 slug: md
 draft: false
+weight: 1
 ---
 
 ###### Markdown标题语法
@@ -29,5 +28,5 @@ draft: false
 | Markdown 语法 | 渲染效果 |
 |--------------|----------|
 | <code>一级标题<br>=======</code> | <h1>一级标题</h1> |
-| <code>二级标题<br>-------</code> | <h2>二级标题</h2> |
+| <code>二级标题</code><br>`-------` | <h2>二级标题</h2> |
 
