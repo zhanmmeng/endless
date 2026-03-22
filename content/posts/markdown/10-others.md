@@ -1,7 +1,7 @@
 ---
-title: "其他语法"
+title: "其他"
 date: 2026-03-22T00:00:00+08:00
-draft: true
+draft: false,
 slug: md-others
 weight: 10
 ---
@@ -76,13 +76,13 @@ ___
 #### 示例
 
 ```markdown
-<https://github.com>
+<https://github.com>  
 <example@email.com>
 ```
 
 #### 渲染效果
 
-<https://github.com>
+<https://github.com>  
 <example@email.com>
 
 ---
@@ -149,13 +149,13 @@ _   下划线
 #### 示例
 
 ```markdown
-\**不是粗体\*
+\**不是粗体\*  
 \[不是链接\](不是URL)
 ```
 
 #### 渲染效果
 
-\**不是粗体\*
+\**不是粗体\*  
 \[不是链接\](不是URL)
 
 ---

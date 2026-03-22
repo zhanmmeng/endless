@@ -1,7 +1,7 @@
 ---
-title: "代码语法"
+title: "代码"
 date: 2026-03-22T00:00:00+08:00
-draft: true
+draft: false
 slug: md-code
 weight: 7
 ---
@@ -142,7 +142,7 @@ greet('World');
 ````
 ```html
 <div class="container">
-  <p>这是一个段落</p>
+  <p>这是一个段落*</p>
 </div>
 ```
 ````
@@ -151,7 +151,7 @@ greet('World');
 
 ```html
 <div class="container">
-  <p>这是一个段落</p>
+  <p>这是一个段落*</p>
 </div>
 ```
 
@@ -175,7 +175,3 @@ greet('World');
    - 标准 Markdown 不支持行号
    - 某些编辑器（如 GitHub）通过扩展支持
 
-5. **最佳实践**
-   - 始终指定语言以启用语法高亮
-   - 使用围栏代码块（三个反引号）而非缩进
-   - 代码示例要简洁、可运行

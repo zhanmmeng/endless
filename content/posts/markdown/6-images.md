@@ -1,7 +1,7 @@
 ---
-title: "图片语法"
+title: "图片"
 date: 2026-03-22T00:00:00+08:00
-draft: true
+draft: false
 slug: md-images
 weight: 6
 ---
@@ -29,32 +29,6 @@ weight: 6
 
 ![风景图](https://picsum.photos/400/200)
 ![带有标题的图片](https://picsum.photos/400/200 "这是一张风景图")
-
----
-### 相对路径图片
-
-引用项目内的图片文件。
-
-#### 示例
-
-```markdown
-![本地图片](./images/photo.png)
-![子目录图片](../assets/banner.jpg)
-```
-
-#### 渲染效果
-
-![本地图片](./images/photo.png)
-![子目录图片](../assets/banner.jpg)
-
-**推荐目录结构**：
-```
-project/
-├── images/
-│   └── photo.png
-└── docs/
-    └── article.md
-```
 
 ---
 ### 引用式图片
@@ -110,28 +84,3 @@ project/
 <img src="https://picsum.photos/400/200" width="200" height="100" alt="缩小的图片">
 
 ---
-### 注意事项
-
-1. **替代文本**
-   - 始终提供有意义的替代文本
-   - 用于屏幕阅读器和图片加载失败时显示
-   - 避免使用"图片"、"图像"等无意义文本
-
-2. **图片格式**
-   - 常用格式：PNG、JPG、GIF、SVG
-   - SVG 支持无损缩放，适合图标和插图
-   - WebP 格式压缩率高，但兼容性稍差
-
-3. **图片优化**
-   - 压缩图片文件大小
-   - 使用适当的分辨率（不用高清图显示小缩略图）
-   - 考虑使用 CDN 加速图片加载
-
-4. **兼容性**
-   - 基本图片语法是 **CommonMark 核心规范**
-   - HTML 扩展支持因平台而异
-
-5. **最佳实践**
-   - 使用相对路径引用项目内图片
-   - 将图片集中存放在 `images/` 或 `assets/` 目录
-   - 为大图提供缩略图版本
