@@ -1,5 +1,5 @@
 ---
-title: "强调语法"
+title: "强调"
 date: 2026-03-21T00:00:00+08:00
 draft: false
 slug: md-emphasis
